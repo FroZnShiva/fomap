@@ -2666,24 +2666,97 @@ var markerData = [{
 		icon: i_Libertalia,
 		icon_inv: i_Libertalia_inv,
 	},
-	/*{x:43988.3,y:32476.9,icon:i_Pier,},
-	{x:33823,y:34220.9,icon:i_Church,},
-	{x:29764.5,y:28410.3,icon:i_UrbanRuins,},
-	{x:30115.8,y:27113.3,icon:i_Skyscraper,},
-	{x:30170.6,y:28910.9,icon:i_Office,},
-	{x:30708,y:29320.9,icon:i_UrbanRuins,},
-	{x:30803.6,y:27866.1,icon:i_Graveyard,},
-	{x:32485.3,y:27363.5,icon:i_Settlement,},
-	{x:33203.6,y:28445.5,icon:i_Landmark,},
-	{x:35800.4,y:26662.5,icon:i_Church,},
-	{x:37072.5,y:27977.5,icon:i_Skyscraper,},
-	{x:32957.4,y:30652.2,icon:i_UrbanRuins,},
-	{x:37116.8,y:29300.3,icon:i_Pier,},
-	{x:32410.3,y:29583.1,icon:i_UrbanRuins,},
-	{x:37947.3,y:37804.5,icon:i_Car,},
-	{x:38852,y:37271.5,icon:i_Encampment,},
-	{x:34020.2,y:33827.5,icon:i_UrbanRuins,},
-	{x:29432.1,y:34918.3,icon:i_Metro,},*/
+	{
+		x: 43988.3,
+		y: 32476.9,
+		icon: i_Pier,
+		icon_inv: i_Pier_inv,
+	}, {
+		x: 33823,
+		y: 34220.9,
+		icon: i_Church,
+		icon_inv: i_Church_inv,
+	}, {
+		x: 29764.5,
+		y: 28410.3,
+		icon: i_UrbanRuins,
+		icon_inv: i_UrbanRuins_inv,
+	}, {
+		x: 30115.8,
+		y: 27113.3,
+		icon: i_Skyscraper,
+		icon_inv: i_Skyscraper_inv,
+	}, {
+		x: 30170.6,
+		y: 28910.9,
+		icon: i_Office,
+		icon_inv: i_Office_inv,
+	}, {
+		x: 30708,
+		y: 29320.9,
+		icon: i_UrbanRuins,
+		icon_inv: i_UrbanRuins_inv,
+	}, {
+		x: 30803.6,
+		y: 27866.1,
+		icon: i_Graveyard,
+		icon_inv: i_Graveyard_inv,
+	}, {
+		x: 32485.3,
+		y: 27363.5,
+		icon: i_Settlement,
+		icon_inv: i_Settlement_inv,
+	}, {
+		x: 33203.6,
+		y: 28445.5,
+		icon: i_Landmark,
+		icon_inv: i_Landmark_inv,
+	}, {
+		x: 35800.4,
+		y: 26662.5,
+		icon: i_Church,
+		icon_inv: i_Church_inv,
+	}, {
+		x: 37072.5,
+		y: 27977.5,
+		icon: i_Skyscraper,
+		icon_inv: i_Skyscraper_inv,
+	}, {
+		x: 32957.4,
+		y: 30652.2,
+		icon: i_UrbanRuins,
+		icon_inv: i_UrbanRuins_inv,
+	}, {
+		x: 37116.8,
+		y: 29300.3,
+		icon: i_Pier,
+		icon_inv: i_Pier_inv,
+	}, {
+		x: 32410.3,
+		y: 29583.1,
+		icon: i_UrbanRuins,
+		icon_inv: i_UrbanRuins_inv,
+	}, {
+		x: 37947.3,
+		y: 37804.5,
+		icon: i_Car,
+		icon_inv: i_Car_inv,
+	}, {
+		x: 38852,
+		y: 37271.5,
+		icon: i_Encampment,
+		icon_inv: i_Encampment_inv,
+	}, {
+		x: 34020.2,
+		y: 33827.5,
+		icon: i_UrbanRuins,
+		icon_inv: i_UrbanRuins_inv,
+	}, {
+		x: 29432.1,
+		y: 34918.3,
+		icon: i_Metro,
+		icon_inv: i_Metro_inv,
+	},
 	{
 		x: 32449.1,
 		y: 16129.2,
@@ -3887,24 +3960,61 @@ var locale = {
 				title: "Libertalia",
 				page: "Libertalia"
 			},
-			/*{title:"Long Wharf",page:"Long_Wharf"},
-			{title:"Holy Mission Congregation",page:"Holy_Mission_Congregation"},
-			{title:"Cambridge Academic Center",page:"Cambridge_Academic_Center"},
-			{title:"Collegiate Administration Building",page:"Collegiate_Administration_Building"},
-			{title:"Cambridge Campus Diner",page:"Cambridge_Campus_Diner"},
-			{title:"Campus Law Offices",page:"Campus_Law_Offices"},
-			{title:"Cambridge Graveyard",page:"Cambridge_Graveyard"},
-			{title:"Cambridge Raider Base",page:"Cambridge_Raider_Base"},
-			{title:"Cambridge Baseball Diamond",page:"Cambridge_Baseball_Diamond"},
-			{title:"Cambridge Church",page:"Cambridge_Church"},
-			{title:"Cambridge Construction Site",page:"Cambridge_Construction_Site"},
-			{title:"East C.I.T. Raider Camp",page:"East_C.I.T._Raider_Camp"},
-			{title:"Science Center Gift Shop",page:"Science_Center_Gift_Shop"},
-			{title:"Major Crossroad",page:"Major_Crossroad"},
-			{title:"Freeway Pileup",page:"Freeway_Pileup"},
-			{title:"Back Alley Camp",page:"Back_Alley_Camp"},
-			{title:"Raider Alleyway Outpost",page:"Raider_Alleyway_Outpost"},
-			{title:"Subway Station",page:"Subway_Station"},*/
+			{
+				title: "Long Wharf",
+				page: "Long_Wharf"
+			}, {
+				title: "Holy Mission Congregation",
+				page: "Holy_Mission_Congregation"
+			}, {
+				title: "Cambridge Academic Center",
+				page: "Cambridge_Academic_Center"
+			}, {
+				title: "Collegiate Administration Building",
+				page: "Collegiate_Administration_Building"
+			}, {
+				title: "Cambridge Campus Diner",
+				page: "Cambridge_Campus_Diner"
+			}, {
+				title: "Campus Law Offices",
+				page: "Campus_Law_Offices"
+			}, {
+				title: "Cambridge Graveyard",
+				page: "Cambridge_Graveyard"
+			}, {
+				title: "Cambridge Raider Base",
+				page: "Cambridge_Raider_Base"
+			}, {
+				title: "Cambridge Baseball Diamond",
+				page: "Cambridge_Baseball_Diamond"
+			}, {
+				title: "Cambridge Church",
+				page: "Cambridge_Church"
+			}, {
+				title: "Cambridge Construction Site",
+				page: "Cambridge_Construction_Site"
+			}, {
+				title: "East C.I.T. Raider Camp",
+				page: "East_C.I.T._Raider_Camp"
+			}, {
+				title: "Science Center Gift Shop",
+				page: "Science_Center_Gift_Shop"
+			}, {
+				title: "Major Crossroad",
+				page: "Major_Crossroad"
+			}, {
+				title: "Freeway Pileup",
+				page: "Freeway_Pileup"
+			}, {
+				title: "Back Alley Camp",
+				page: "Back_Alley_Camp"
+			}, {
+				title: "Raider Alleyway Outpost",
+				page: "Raider_Alleyway_Outpost"
+			}, {
+				title: "Subway Station",
+				page: "Subway_Station"
+			},
 			{
 				title: "Wildwood Cemetery",
 				page: "Wildwood_Cemetery"
