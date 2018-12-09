@@ -50,3 +50,7 @@ for (var property in locations) {
 ```
 
 Then reload the page in order to see the tracked locations.
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/FroZnShiva/fomap/master/screenshot.jpg)
