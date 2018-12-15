@@ -817,7 +817,7 @@ var childMapData=[
       		m.bindPopup(popupContent,{maxWidth:415,minWidth:415});
       		m.on('popupopen',function(e){
 						if($("#overlay").css("display")!="none"){
-						var jqxhr = $.getJSON( "pageGrabber.php?p="+$("#WikiaMainContentContainer").attr("page")+"&lng="+window.lang, function(data) {
+						var jqxhr = $.getJSON( "http://digital-utopia.org/fallout4/farharbor/pageGrabber.php?p="+$("#WikiaMainContentContainer").attr("page")+"&lng="+window.lang, function(data) {
 						  $("#mw-content-text").css("display","block");
 						  $("#mw-content-text").append(data.content);
 						  $("#image").attr("src",data.img);
@@ -882,7 +882,7 @@ var childMapData=[
 		      		cmap.zoomControl.setPosition('bottomright');
 
 		      		//L.tileLayer("zipimg.php?n="+p.options.world+"&z={z}&x={x}&y={y}", {
-		      		L.tileLayer("/fo3maps/"+p.options.world+"/{z}/{x}_{y}.png", {
+		      		L.tileLayer("http://digital-utopia.org/fo3maps/"+p.options.world+"/{z}/{x}_{y}.png", {
 		      			continuousWorld: 'true',
 		      			errorTileUrl: '../fo3maps/blank.png',
 		    				maxZoom: childMapData[p.options.index].zoom
@@ -1043,8 +1043,8 @@ var childMapData=[
 					$.each(locale[lang].filterText, function(k,v){
 						var sl = $(fstub).appendTo("#filterMenu");
 						$(".menu-label",sl).html(v);
-						$(".menu-img",sl).attr("src","../markers/"+k+".png");
-						$(".menu-img-over",sl).attr("src","../markers/"+k+"-inv.png");
+						$(".menu-img",sl).attr("src","http://digital-utopia.org/fallout4/markers/"+k+".png");
+						$(".menu-img-over",sl).attr("src","http://digital-utopia.org/fallout4/markers/"+k+"-inv.png");
 					});
 					var space=$(fstub).appendTo("#filterMenu");
 					$(".selector",space).css("display","none");
@@ -1129,7 +1129,7 @@ var childMapData=[
 
 								$(".selector",e.currentTarget).attr("class","selector selector-over");
 								micon=$(".menu-img",e.currentTarget).attr("src");
-								if(micon.indexOf("Region.png")==-1)
+								if(micon.indexOf("http://digital-utopia.org/fallout4/farharbor/Region.png")==-1)
 								{
 								$(".leaflet-marker-icon").each(function(i){
 									if($(this).attr("src")==micon)
@@ -1184,7 +1184,7 @@ var childMapData=[
 								}
 								$(".selector",e.currentTarget).attr("class","selector selector-on selector-over");
 								micon=$(".menu-img",e.currentTarget).attr("src");
-								if(micon.indexOf("Region.png")==-1)
+								if(micon.indexOf("http://digital-utopia.org/fallout4/farharbor/Region.png")==-1)
 								{
 								$(".leaflet-marker-icon").each(function(i){
 									if($(this).attr("src")==micon)
