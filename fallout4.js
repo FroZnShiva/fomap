@@ -5265,7 +5265,7 @@ function markerGen(map) {
 	var cY = 2560 + (43 * 256);
 	for (var i = 0; i < markerData.length; i++) {
 		var key = "fallout4/" + escape(locale[lang].markerData[i].page) + "/visited";
-		var visited = localStorage.getItem(key);
+		var visited = localStorage.getItem(key) === "true";
 		var visitedBtn = "<span onclick=\"localStorage.setItem('" + key + "', " + (visited ? "false" : "true") + ")\">" + (visited ? "✅" : "🛑") + "</span>";
 		mx = markerData[i].x;
 		my = markerData[i].y;
