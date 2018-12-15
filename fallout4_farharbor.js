@@ -73,8 +73,8 @@ var isize=[32, 32];
 				var i_VassalSettlement = L.icon({iconUrl: '../markers/VassalSettlement.png',iconSize: isize,iconAnchor: ianchor, popupAnchor: panchor,});
 				var i_Vault = L.icon({iconUrl: '../markers/Vault.png',iconSize: isize,iconAnchor: ianchor, popupAnchor: panchor,});
 
-			
-			
+
+
       	var markerData=[
       		{x:23109.4,y:15161.9,icon:i_Observatory,},
 {x:16602.6,y:7084.6,icon:i_Hospital,},
@@ -135,7 +135,7 @@ var isize=[32, 32];
 
 
 
-//2 -> 0, 
+//2 -> 0,
 var locale={
 	"en":{
 		"url":"http://fallout.wikia.com/wiki/",
@@ -202,7 +202,7 @@ var locale={
 			{name:"Takoma Park",markerData:[
 				{title:"Takoma Industrial",page:"Takoma_Industrial"},
 				{title:"Takoma Park",page:"Takoma_Park"},
-				
+
 			]},
 			{name:"Vernon Square",markerData:[
 				{title:"Our Lady of Hope Hospital",page:"Our_Lady_of_Hope_Hospital"},
@@ -211,7 +211,7 @@ var locale={
 				{title:"Vernon Square East",page:"Vernon_Square_East"},
 				{title:"Vernon Square North",page:"Vernon_Square_North"},
 				{title:"Vernon Square Station",page:"Vernon_Square_Station"},
-				
+
 			]},
 			{name:"Pennsylvania Avenue",markerData:[
 				{title:"Metro Central",page:"Metro_Central"},
@@ -221,7 +221,7 @@ var locale={
 				{title:"Penn. Ave South",page:"Penn._Ave_South"},
 				{title:"White House",page:"White_House"},
 				{title:"White House Plaza",page:"White_House_Plaza"},
-				
+
 			]},
 			{name:"The Mall",markerData:[
 				{title:"Lincoln Memorial",page:"Lincoln_Memorial"},
@@ -234,37 +234,37 @@ var locale={
 				{title:"The Mall Northeast",page:"The_Mall_Northeast"},
 				{title:"The National Archives",page:"The_National_Archives"},
 				{title:"The Washington Monument",page:"The_Washington_Monument"},
-				
+
 			]},
 			{name:"L'Enfant Plaza",markerData:[
 				{title:"L'Enfant Plaza",page:"L%27Enfant_Plaza"},
 				{title:"L'Enfant South",page:"L%27Enfant_South"},
-				
+
 			]},
 			{name:"Georgetown",markerData:[
 				{title:"Georgetown East",page:"Georgetown_East"},
 				{title:"Georgetown North",page:"Georgetown_North"},
 				{title:"Georgetown South",page:"Georgetown_South"},
 				{title:"Georgetown West",page:"Georgetown_West"},
-				
+
 			]},
 			{name:"Seward Square",markerData:[
 				{title:"Ranger Compound",page:"Ranger_Compound"},
 				{title:"Seward Sq. North Metro",page:"Seward_Sq._North_Metro"},
 				{title:"Seward Sq. Northwest",page:"Seward_Sq._Northwest"},
 				{title:"Seward Sq. Southeast",page:"Seward_Sq._Southeast"},
-				
+
 			]},
 			{name:"Mason District",markerData:[
 				{title:"Hubris Comics",page:"Hubris_Comics_(location)"},
 				{title:"Mason District South",page:"Mason_District_South"},
-				
+
 			]},
 			{name:"Falls Church",markerData:[
 				{title:"Falls Church East",page:"Falls_Church_East"},
 				{title:"Falls Church Metro",page:"Falls_Church_Metro"},
 				{title:"Falls Church North",page:"Falls_Church_North"},
-				
+
 			]},
 			{name:"Arlington Cemetery",markerData:[
 				{title:"Arlington Cemetery North",page:"Arlington_Cemetery_North"},
@@ -275,7 +275,7 @@ var locale={
 				{title:"Bailey's Crossroads Metro",page:"Bailey%27s_Crossroads_Metro"},
 				{title:"Outcast Outpost",page:"Outcast_Outpost"},
 			]},
-		
+
 		],
 		"filterText":{
 			"Airfield":"Airfield",
@@ -346,7 +346,7 @@ var locale={
 		},
 		"text":{
 			"Locations":"Locations",
-			
+
 			"Hide":"Hide",
 			"Filter":"Filter",
 			"See more":"See more",
@@ -528,7 +528,7 @@ var locale={
 			{title:"Товарная станция Вильхельма",page:"Товарная_станция_Вильхельма"},
 			{title:"Станция вещания WKML",page:"Станция_вещания_WKML"},
 			{title:"Туннели_яо-гаев",page:"Туннели яо-гаев"},
-		
+
 		],
 		"rectData":[
 			{name:"Чеви-Чейз",markerData:[
@@ -545,7 +545,7 @@ var locale={
 			{name:"Такома-парк",markerData:[
 				{title:"Такома, фабрика",page:"Такома,_фабрика"},
 				{title:"Такома-парк",page:"Такома-парк"},
-				
+
 			]},
 			{name:"Вернон-сквер",markerData:[
 				{title:"Больница Надежды",page:"Больница_Надежды"},
@@ -554,7 +554,7 @@ var locale={
 				{title:"Вернон-сквер — восток",page:"Вернон-сквер_—_восток"},
 				{title:"Вернон-сквер — север",page:"Вернон-сквер_—_север"},
 				{title:"Станция «Вернон-сквер»",page:"Станция_«Вернон-сквер»"},
-				
+
 			]},
 			{name:"Пенсильвания-авеню",markerData:[
 				{title:"Метро-центр",page:"Метро-центр"},
@@ -564,7 +564,7 @@ var locale={
 				{title:"Пенсильвания-авеню — юг",page:"Пенсильвания-авеню_—_юг"},
 				{title:"Белый Дом",page:"Белый_Дом"},
 				{title:"Белый Дом — площадь",page:"Белый_Дом_—_площадь"},
-				
+
 			]},
 			{name:"Молл",markerData:[
 				{title:"Мемориал Линкольна",page:"Мемориал_Линкольна"},
@@ -577,12 +577,12 @@ var locale={
 				{title:"Молл юго-запад",page:"Молл_юго-запад"},
 				{title:"Национальный архив",page:"Национальный_архив"},
 				{title:"Монумент Вашингтона",page:"Монумент_Вашингтона"},
-				
+
 			]},
 			{name:"Ланфан-плаза",markerData:[
 				{title:"Ланфан-плаза",page:"Ланфан-плаза"},
 				{title:"Ланфан — юг",page:"Ланфан_—_юг"},
-				
+
 			]},
 			{name:"Джорджтаун",markerData:[
 				{title:"Джорджтаун — восток",page:"Джорджтаун_—_восток"},
@@ -590,25 +590,25 @@ var locale={
 				{title:"Джорджтаун — юг",page:"Джорджтаун_—_юг"},
 				{title:"Джорджтаун — запад",page:"Джорджтаун_—_запад"},
 
-				
+
 			]},
 			{name:"Сьюард-сквер",markerData:[
 				{title:"База рейнджеров Рейли",page:"База_рейнджеров_Рейли"},
 				{title:"Станция «Сьюард-сквер» — север",page:"Станция_«Сьюард-сквер»_—_север"},
 				{title:"Сьюард-сквер — северо-запад",page:"Сьюард-сквер_—_северо-запад"},
 				{title:"Сьюард-сквер — юго-восток",page:"Сьюард-сквер_—_юго-восток"},
-				
+
 			]},
 			{name:"Район Мейсон",markerData:[
 				{title:"Хьюбрис Комикс (локация)",page:"Хьюбрис_Комикс_(локация)"},
 				{title:"Район Мейсон — юг",page:"Район Мейсон_—_юг"},
-				
+
 			]},
 			{name:"Фоллз-Чёрч",markerData:[
 				{title:"Фоллз-Чёрч — восток",page:"Фоллз-Чёрч_—_восток"},
 				{title:"Станция «Фоллз-Чёрч»",page:"Станция_«Фоллз-Чёрч»"},
 				{title:"Фоллз-Чёрч — север",page:"Фоллз-Чёрч_—_север"},
-				
+
 			]},
 			{name:"Арлингтонское кладбище",markerData:[
 				{title:"Арлингтонское кладбище — север",page:"Арлингтонское_кладбище_—_север"},
@@ -619,7 +619,7 @@ var locale={
 				{title:"Станция метро «Бейлиз Кроссроудз»",page:"Станция_метро_«Бейлиз_Кроссроудз»"},
 				{title:"Аванпост Изгоев",page:"Аванпост_Изгоев"},
 			]},
-		
+
 		],
 		"text":{
 			"Locations":"Локации",
@@ -643,7 +643,7 @@ var locale={
 			"Filter":"Фильтр",
 			"See more":"Подробнее",
 		}
-		
+
 	},
 };
 
@@ -661,12 +661,12 @@ var rectData=[
 		{x:4310.19335,y:3553.0747,icon: i_metro,},
 		{x:2984,y:5608,icon: i_metro,},
 		{x:1849.688475,y:4404.224125,icon: i_metro,},
-	
+
 	]},
 	{left:14108.11999,top:10278.37514,right:14927.31999,bottom:11097.57514,name:"Takoma Park",world:"dcworld05",markerData:[
 		{x:4940.671875,y:3040.349375,icon: i_factory,},
 		{x:2285.2207,y:5543.8938,icon: i_ruins_urban,},
-	
+
 	]},
 	{left:12939.09901,top:10209.50049,right:13899.09901,bottom:11553.50049,name:"Vernon Square",world:"dcworld06",markerData:[
 		{x:2814,y:5338,icon: i_office,},
@@ -675,7 +675,7 @@ var rectData=[
 		{x:4110.31835,y:3014.044925,icon: i_metro,},
 		{x:4169.0547,y:1727.4026,icon: i_metro,},
 		{x:2557,y:4145,icon: i_metro,},
-	
+
 	]},
 	{left:12686.00017,top:11134.50038,right:13838.00017,bottom:11774.50038,name:"Pennsylvania Avenue",world:"dcworld08",markerData:[
 		{x:7019.99805,y:2872.00195,icon: i_metro,},
@@ -685,7 +685,7 @@ var rectData=[
 		{x:5120.52735,y:3881.51465,icon: i_metro,},
 		{x:2036.609375,y:1918.811025,icon: i_monument,},
 		{x:3035.563475,y:2330.745125,icon: i_monument,},
-	
+
 	]},
 	{left:12186.67464,top:11558.09992,right:14029.87464,bottom:12377.29992,name:"The Mall",world:"dcworld09",markerData:[
 		{x:5597.526375,y:4615.759775,icon: i_monument,},
@@ -698,7 +698,7 @@ var rectData=[
 		{x:14587,y:1503,icon: i_metro,},
 		{x:14004,y:2754,icon: i_office,},
 		{x:10341.9707,y:4606.3545,icon: i_monument,},
-	
+
 	]},
 	{left:12637.74962,top:12216.50009,right:13533.74962,bottom:12984.50009,world:"dcworld10",markerData:[
 		{x:2339.46095,y:1755.8047,icon: i_metro,},
@@ -765,11 +765,11 @@ var childMapData=[
       	var fstub="<li class=\"li-header\"><div class=\"menu-container\"><div class=\"selector selector-on\"></div><div class=\"menu-label\"></div><div class=\"menu-icon\"><img class=\"menu-img\"/><img class=\"menu-img-over\"/></div></div></div></li>";
       	var topbar='<table cellspacing="0" cellpadding="0" class="va-navbox-border va-navbox-bottom"><tbody><tr><td class="va-navbox-padding"><table cellspacing="0" cellpadding="0" class="va-navbox collapsible autocollapse"><tbody><tr><th class="va-navbox-title va-navbox-maintitle" colspan="1" width="100%"><span class="collapseButton" style="float:left;text-align:left;font-weight:normal;">[<span tabindex="0" class="collapseLink" style="cursor:pointer;">Filter</span>]</span></th></tr></tbody></table></td></tr></tbody></table>';
       	var allHidden=false;
-      	
+
       	function updateFilter()
       	{
-      		//this is to mostly compensate for new markers being "added" via opening a map popup. 
-      		//assuming that if the user wanted to hide a marker type - they don't want to see it on any map. 
+      		//this is to mostly compensate for new markers being "added" via opening a map popup.
+      		//assuming that if the user wanted to hide a marker type - they don't want to see it on any map.
 
       		srcArray=[];
       		$(".menu-container").each(function(i){
@@ -782,17 +782,17 @@ var childMapData=[
       					srcArray[im]="block";
       				}
 
-      				
+
       			}
-      			
+
       		});
       		$('.leaflet-marker-icon').each(function(i){
       			$(this).css("display",srcArray[$(this).attr("src")]);
       		});
-      		
+
       	}
-      	
-      	
+
+
       	function markerGen(map)
       	{
       		var cX = 2560+(42*256);
@@ -810,7 +810,7 @@ var childMapData=[
 					m.on('mouseover',function(e){
 						currentMarker=e.target;
 					});
-					
+
 					markers.push(m);
 					var popupContent="<div page=\""+locale[lang].markerData[i].page+"\"id=\"WikiaMainContentContainer\" class=\"WikiaMainContentContainer\"><header id=\"WikiaPageHeader\" class=\"WikiaPageHeader\"><h1 id=\"title\">"+locale[lang].markerData[i].title+"</h1></header><div id=\"overlay\"><span class=\"helper\"></span><img class=\"ajax\" src=\"ajax.gif\"/></div><div id=\"mw-content-text\" lang=\"en\" dir=\"ltr\" class=\"mw-content-ltr\"><table id=\"va-infobox0\" class=\"va-infobox\" style=\"width: 100px;\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td class=\"va-infobox-mainimage-image\" style=\"\"><img id=\"image\"/></td></tr></tbody></table></div><span class=\"seeMore\"><a target=\"blank\"href=\""+locale[lang].url+locale[lang].markerData[i].page+"\">"+locale[lang].text["See more"]+"></a></span></div>";
       		var p=new L.popup({maxWidth:415,minWidth:415}).setContent(popupContent);
@@ -828,32 +828,32 @@ var childMapData=[
 						  $(".center").css("display","none");
 						  $("center").css("display","none");
 						})
-						  
+
 						  .fail(function() {
 						    console.log( "error" );
 						  })
 						}
 					});
       		popups.push(p);
-      		
+
       		}
-      		
+
       	}
-      	
+
       	var cX = 2560+(42*256);
       	var cY = 2560+(43*256);
       	var testX = ((-10420.6055/4096)*256)+cX;
       	var testY = cY-((12619.6797/4096)*256);
-      	
+
       	var pathOps={
       		color:'#17ee77',
       		weight:1,
       		opacity:.3,
       		fillOpacity:.05,
       		className:"childpath"
-      		
+
       	};
-      	
+
       	function rectGen(map)
       	{
       		for(var i=0; i < rectData.length; i++)
@@ -866,9 +866,9 @@ var childMapData=[
       			r.bindPopup("<div id=\"mapWrapper\" class=\"mapWrapper\"></div>",{minWidth:500,maxWidth:1024});
       			r.options.className="childpath."+i;
       			r.on('mouseover',function(e){
-      				
+
 							currentPath=e.target;
-							
+
 						});
 						r.on('popupopen',function(e){
 							p=currentPath;
@@ -880,7 +880,7 @@ var childMapData=[
 		      			crs: L.CRS.Simple
 		      		});
 		      		cmap.zoomControl.setPosition('bottomright');
-							
+
 		      		//L.tileLayer("zipimg.php?n="+p.options.world+"&z={z}&x={x}&y={y}", {
 		      		L.tileLayer("/fo3maps/"+p.options.world+"/{z}/{x}_{y}.png", {
 		      			continuousWorld: 'true',
@@ -935,22 +935,22 @@ var childMapData=[
 						  $(".center").css("display","none");
 						  $("center").css("display","none");
 						})
-						  
+
 						  .fail(function() {
 						    console.log( "error" );
 						  })
 						}
-						
+
 					});
       		//popups.push(p);
-      		
+
       		}
       		updateFilter();
 						})
       			rectArray.push(r);
       		}
       	}
-      	
+
       	function showFilter()
       	{
       		$(".collapseLink").html(locale[lang].text["Hide"]);
@@ -962,18 +962,18 @@ var childMapData=[
       		$(".filter_bg").css("display","none");
 			map.scrollWheelZoom.enable();
 			map.dragging.enable();
-			map.doubleClickZoom.enable();  
+			map.doubleClickZoom.enable();
       	}
-      	
-      	
-      	
-      	
-      	
+
+
+
+
+
       	function init()
       	{
-      		
-      		
-      		
+
+
+
       		map = L.map('map',{
       			scrollWheelZoom: 'center',
       			minZoom:1,
@@ -985,7 +985,7 @@ var childMapData=[
       		L.tileLayer('/fo4maps/dlc03farharbor/{z}/{x}_{y}.png', {
       			continuousWorld: 'true',
       			errorTileUrl: '../../fo4maps/blank.png',
-      	
+
     				maxZoom: 5
 					}).addTo(map);
 					var bounds = L.latLngBounds(map.unproject([32548,32098],5),map.unproject([220,670],5));
@@ -994,10 +994,10 @@ var childMapData=[
 					markerGen(map);
 					rectGen(map);
 					map.attributionControl.addAttribution("By <a target=\"blank\" href=\"http://digital-utopia.org\">Digital_Utopia</a> for <a target=\"blank\" href=\"http://fallout.wikia.com\">Nukapedia</a>");
-					
-					
+
+
 				}
-				
+
 				$( document ).ready(function() {
 					init();
 					$('#map').append(fcontent);
@@ -1011,7 +1011,7 @@ var childMapData=[
 						callbacks:
 						{
 						  onOverflowY:function(){
-						
+
 						  },
 						  whileScrolling: function(){
 							  console.log(this.mcs.topPct);
@@ -1028,7 +1028,7 @@ var childMapData=[
 							  {
 								  $('.mCSB_buttonUp').css("display","none");
 							  }
-						  },						
+						  },
 						 }
 					});
 					$(document).on("mousemove",function(e){
@@ -1051,7 +1051,7 @@ var childMapData=[
 					var space=$(fstub).appendTo("#filterMenu");
 					$(".selector",space).css("display","none");
 					hideFilter()
-					
+
 					$(".filter_bg").mouseover(function(e){
 						map.scrollWheelZoom.disable();
 						map.dragging.disable();
@@ -1073,7 +1073,7 @@ var childMapData=[
 						}
 						$(".menu-img",e.currentTarget).css("display","none");
 						$(".menu-img-over",e.currentTarget).css("display","inline-block");
-						
+
 					});
 					$(".menu-container").mouseout(function(e){
 						if($('.menu-label',e.currentTarget).html()==""){return};
@@ -1099,7 +1099,7 @@ var childMapData=[
 							if($(e.currentTarget).parent().attr("id")=="filterHeader")
 							{
 								//it's the locations entry - hide all of them
-								
+
 									$('.selector').each(function(i){
 									if($(this).attr("class")=="selector selector-on selector-over")
 									{
@@ -1117,16 +1117,16 @@ var childMapData=[
 											}
 										});
 										$(".childpath").each(function(i){
-									
+
 												$(this).css("display","none");
-											
+
 										});
 									}
 								});
 								allHidden=true;
 							}else{
 								//just an individual item
-								
+
 								$(".selector",e.currentTarget).attr("class","selector selector-over");
 								micon=$(".menu-img",e.currentTarget).attr("src");
 								if(micon.indexOf("Region.png")==-1)
@@ -1139,9 +1139,9 @@ var childMapData=[
 								});
 							}else{
 								$(".childpath").each(function(i){
-									
+
 										$(this).css("display","none");
-									
+
 								});
 							}
 							}
@@ -1169,9 +1169,9 @@ var childMapData=[
 											}
 										});
 										$(".childpath").each(function(i){
-									
+
 												$(this).css("display","block");
-											
+
 										});
 									}
 								});
@@ -1193,11 +1193,11 @@ var childMapData=[
 									}
 								});
 							}else{
-								
+
 								$(".childpath").each(function(i){
-									
+
 										$(this).css("display","block");
-									
+
 								});
 							}
 							}
@@ -1205,8 +1205,8 @@ var childMapData=[
 						}
 					});
 					$(".menu-container",space).click(function(e){});
-					
-					
+
+
 					$('.childpath').mouseover(function(e){
 						bounds=document.body.getBoundingClientRect();
 						$("#tooltip").css("display","block");
@@ -1214,11 +1214,11 @@ var childMapData=[
       			var c=$(e.currentTarget).attr("class");
       			var ca=c.split(" ");
       			$("#tooltext").html(rectArray[ca[1]].options.ctitle);
-      			
+
       			//$("#tooltext").html(currentPath.options.ctitle);
-      			
+
       			var pos=$(e.target).position();
-						
+
       			var z = map.getZoom();
       			//first get the real position
       			var bbox=e.currentTarget.getBBox();
@@ -1232,9 +1232,9 @@ var childMapData=[
       			var boundTest=e.target.getBoundingClientRect();
       			$("#tooltip").css("top",(rOffsetY+pY+18));
       			$("#tooltip").css("left",(rOffsetX+pX-toff+18));
-						
+
 					});
-					
+
 					$('.childpath').mousemove(function(e){
 						var z = map.getZoom();
 						//first get the real position
@@ -1250,29 +1250,29 @@ var childMapData=[
       			$("#tooltip").css("top",(rOffsetY+pY+18));
       			$("#tooltip").css("left",(rOffsetX+pX-toff+18));
 					});
-					
+
 					$('.childpath').mouseout(function(e){
 						$("#tooltip").css("display","none");
 					});
-					
+
 					$('.leaflet-marker-icon').mouseover(function(e){
-						
+
       			$("#tooltip").css("display","block");
       			$("#tooltip").insertAfter($(e.target));
       			//$(".leaflet-popup-pane").append($("#tooltip"));
       			$("#tooltext").html(currentMarker.options.ctitle);
-      			
+
       			var pos=$(e.target).position();
-      			
-      			
+
+
       			//var trans=getTransform($(e.target));
-      			
+
       			//$("#tooltip").css("transform","translate3d("+toolX+"px,"+toolY+"px,0px)");
       			var z = map.getZoom();
       			$("#tooltip").css("top",pos.top+(z*1)+16);
       			$("#tooltip").css("left",pos.left-parseInt($("#tooltip").width()/2));
-						
-      			
+
+
       		});
       		$('.leaflet-marker-icon').mouseout(function(){
       			$("#tooltip").css("display","none");
@@ -1287,5 +1287,5 @@ var childMapData=[
       				hideFilter();
       			}
       		});
-      		
+
 				});
