@@ -3,457 +3,457 @@ var ianchor = [12, 12];
 var panchor = [0, -2];
 var map;
 var i_Airfield = L.icon({
-    iconUrl: '../markers/Airfield.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Airfield.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_BoS = L.icon({
-    iconUrl: '../markers/BoS.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/BoS.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Brownstone = L.icon({
-    iconUrl: '../markers/Brownstone.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Brownstone.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Bunker = L.icon({
-    iconUrl: '../markers/Bunker.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Bunker.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_BunkerHill = L.icon({
-    iconUrl: '../markers/BunkerHill.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/BunkerHill.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Camper = L.icon({
-    iconUrl: '../markers/Camper.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Camper.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Car = L.icon({
-    iconUrl: '../markers/Car.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Car.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Castle = L.icon({
-    iconUrl: '../markers/Castle.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Castle.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Cave = L.icon({
-    iconUrl: '../markers/Cave.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Cave.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Church = L.icon({
-    iconUrl: '../markers/Church.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Church.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_City = L.icon({
-    iconUrl: '../markers/City.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/City.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_CountryClub = L.icon({
-    iconUrl: '../markers/CountryClub.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/CountryClub.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_CustomHouse = L.icon({
-    iconUrl: '../markers/CustomHouse.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/CustomHouse.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_DiamondCity = L.icon({
-    iconUrl: '../markers/DiamondCity.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/DiamondCity.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Disciples = L.icon({
-    iconUrl: '../markers/Disciples.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Disciples.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_DriveIn = L.icon({
-    iconUrl: '../markers/DriveIn.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/DriveIn.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_ElevatedHighway = L.icon({
-    iconUrl: '../markers/ElevatedHighway.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/ElevatedHighway.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Encampment = L.icon({
-    iconUrl: '../markers/Encampment.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Encampment.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Factory = L.icon({
-    iconUrl: '../markers/Factory.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Factory.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_FaneuilHall = L.icon({
-    iconUrl: '../markers/FaneuilHall.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/FaneuilHall.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Farm = L.icon({
-    iconUrl: '../markers/Farm.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Farm.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_FillingStation = L.icon({
-    iconUrl: '../markers/FillingStation.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/FillingStation.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Forested = L.icon({
-    iconUrl: '../markers/Forested.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Forested.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Galactic = L.icon({
-    iconUrl: '../markers/Galactic.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Galactic.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Goodneighbor = L.icon({
-    iconUrl: '../markers/Goodneighbor.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Goodneighbor.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Graveyard = L.icon({
-    iconUrl: '../markers/Graveyard.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Graveyard.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Hospital = L.icon({
-    iconUrl: '../markers/Hospital.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Hospital.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_IndustrialDome = L.icon({
-    iconUrl: '../markers/IndustrialDome.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/IndustrialDome.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_IndustrialStacks = L.icon({
-    iconUrl: '../markers/IndustrialStacks.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/IndustrialStacks.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Institute = L.icon({
-    iconUrl: '../markers/Institute.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Institute.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_IrishPride = L.icon({
-    iconUrl: '../markers/IrishPride.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/IrishPride.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Junkyard = L.icon({
-    iconUrl: '../markers/Junkyard.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Junkyard.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Landmark = L.icon({
-    iconUrl: '../markers/Landmark.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Landmark.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Libertalia = L.icon({
-    iconUrl: '../markers/Libertalia.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Libertalia.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_LowRise = L.icon({
-    iconUrl: '../markers/LowRise.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/LowRise.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Mechanist = L.icon({
-    iconUrl: '../markers/Mechanist.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Mechanist.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Metro = L.icon({
-    iconUrl: '../markers/Metro.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Metro.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_MilitaryBase = L.icon({
-    iconUrl: '../markers/MilitaryBase.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/MilitaryBase.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Minutemen = L.icon({
-    iconUrl: '../markers/Minutemen.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Minutemen.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Monorail = L.icon({
-    iconUrl: '../markers/Monorail.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Monorail.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Monument = L.icon({
-    iconUrl: '../markers/Monument.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Monument.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Observatory = L.icon({
-    iconUrl: '../markers/Observatory.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Observatory.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Office = L.icon({
-    iconUrl: '../markers/Office.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Office.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Operators = L.icon({
-    iconUrl: '../markers/Operators.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Operators.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Pack = L.icon({
-    iconUrl: '../markers/Pack.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Pack.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Pier = L.icon({
-    iconUrl: '../markers/Pier.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Pier.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_PoliceStation = L.icon({
-    iconUrl: '../markers/PoliceStation.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/PoliceStation.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_PondLake = L.icon({
-    iconUrl: '../markers/PondLake.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/PondLake.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_PotentitalVassalSettlement = L.icon({
-    iconUrl: '../markers/PotentitalVassalSettlement.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/PotentitalVassalSettlement.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Prydwen = L.icon({
-    iconUrl: '../markers/Prydwen.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Prydwen.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Quarry = L.icon({
-    iconUrl: '../markers/Quarry.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Quarry.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_RadioactiveArea = L.icon({
-    iconUrl: '../markers/RadioactiveArea.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/RadioactiveArea.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_RadioTower = L.icon({
-    iconUrl: '../markers/RadioTower.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/RadioTower.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_RaiderSettlement = L.icon({
-    iconUrl: '../markers/RaiderSettlement.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/RaiderSettlement.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Railroad = L.icon({
-    iconUrl: '../markers/Railroad.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Railroad.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_RailroadFaction = L.icon({
-    iconUrl: '../markers/RailroadFaction.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/RailroadFaction.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Rides = L.icon({
-    iconUrl: '../markers/Rides.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Rides.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Safari = L.icon({
-    iconUrl: '../markers/Safari.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Safari.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Salem = L.icon({
-    iconUrl: '../markers/Salem.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Salem.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_SancHills = L.icon({
-    iconUrl: '../markers/SancHills.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/SancHills.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Satellite = L.icon({
-    iconUrl: '../markers/Satellite.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Satellite.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_School = L.icon({
-    iconUrl: '../markers/School.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/School.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Sentinel = L.icon({
-    iconUrl: '../markers/Sentinel.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Sentinel.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Settlement = L.icon({
-    iconUrl: '../markers/Settlement.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Settlement.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Sewer = L.icon({
-    iconUrl: '../markers/Sewer.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Sewer.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Shipwreck = L.icon({
-    iconUrl: '../markers/Shipwreck.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Shipwreck.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Skyscraper = L.icon({
-    iconUrl: '../markers/Skyscraper.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Skyscraper.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Submarine = L.icon({
-    iconUrl: '../markers/Submarine.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Submarine.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_SwanPond = L.icon({
-    iconUrl: '../markers/SwanPond.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/SwanPond.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_SynthHead = L.icon({
-    iconUrl: '../markers/SynthHead.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/SynthHead.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Town = L.icon({
-    iconUrl: '../markers/Town.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Town.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_TownRuins = L.icon({
-    iconUrl: '../markers/TownRuins.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/TownRuins.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_UrbanRuins = L.icon({
-    iconUrl: '../markers/UrbanRuins.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/UrbanRuins.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_USSConstitution = L.icon({
-    iconUrl: '../markers/USSConstitution.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/USSConstitution.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_VassalSettlement = L.icon({
-    iconUrl: '../markers/VassalSettlement.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/VassalSettlement.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
 });
 var i_Vault = L.icon({
-    iconUrl: '../markers/Vault.png',
+    iconUrl: 'http://digital-utopia.org/fallout4/markers/Vault.png',
     iconSize: isize,
     iconAnchor: ianchor,
     popupAnchor: panchor,
@@ -2018,7 +2018,7 @@ function markerGen(map) {
         });
 
         markers.push(m);
-        var popupContent = "<div page=\"" + locale[lang].markerData[i].page + "\"id=\"WikiaMainContentContainer\" class=\"WikiaMainContentContainer\"><header id=\"WikiaPageHeader\" class=\"WikiaPageHeader\"><h1 id=\"title\">" + locale[lang].markerData[i].title + "</h1></header><div id=\"overlay\"><span class=\"helper\"></span><img class=\"ajax\" src=\"ajax.gif\"/></div><div id=\"mw-content-text\" lang=\"en\" dir=\"ltr\" class=\"mw-content-ltr\"><table id=\"va-infobox0\" class=\"va-infobox\" style=\"width: 100px;\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td class=\"va-infobox-mainimage-image\" style=\"\"><img id=\"image\"/></td></tr></tbody></table></div><span class=\"seeMore\"><a target=\"blank\"href=\"" + locale[lang].url + locale[lang].markerData[i].page + "\">" + locale[lang].text["See more"] + "></a></span></div>";
+        var popupContent = "<div page=\"" + locale[lang].markerData[i].page + "\"id=\"WikiaMainContentContainer\" class=\"WikiaMainContentContainer\"><header id=\"WikiaPageHeader\" class=\"WikiaPageHeader\"><h1 id=\"title\">" + locale[lang].markerData[i].title + "</h1></header><div id=\"overlay\"><span class=\"helper\"></span><img class=\"ajax\" src=\"http://www.digital-utopia.org/fallout4/nukaworld/ajax.gif\"/></div><div id=\"mw-content-text\" lang=\"en\" dir=\"ltr\" class=\"mw-content-ltr\"><table id=\"va-infobox0\" class=\"va-infobox\" style=\"width: 100px;\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td class=\"va-infobox-mainimage-image\" style=\"\"><img id=\"image\"/></td></tr></tbody></table></div><span class=\"seeMore\"><a target=\"blank\"href=\"" + locale[lang].url + locale[lang].markerData[i].page + "\">" + locale[lang].text["See more"] + "></a></span></div>";
         var p = new L.popup({
             maxWidth: 415,
             minWidth: 415
@@ -2029,7 +2029,7 @@ function markerGen(map) {
         });
         m.on('popupopen', function(e) {
             if ($("#overlay").css("display") != "none") {
-                var jqxhr = $.getJSON("pageGrabber.php?p=" + $("#WikiaMainContentContainer").attr("page") + "&lng=" + window.lang, function(data) {
+                var jqxhr = $.getJSON("http://www.digital-utopia.org/fallout4/nukaworld/pageGrabber.php?p=" + $("#WikiaMainContentContainer").attr("page") + "&lng=" + window.lang, function(data) {
                     $("#mw-content-text").css("display", "block");
                     $("#mw-content-text").append(data.content);
                     $("#image").attr("src", data.img);
@@ -2095,9 +2095,9 @@ function rectGen(map) {
             cmap.zoomControl.setPosition('bottomright');
 
             //L.tileLayer("zipimg.php?n="+p.options.world+"&z={z}&x={x}&y={y}", {
-            L.tileLayer("/fo3maps/" + p.options.world + "/{z}/{x}_{y}.png", {
+            L.tileLayer("http://www.digital-utopia.org/fo3maps/" + p.options.world + "/{z}/{x}_{y}.png", {
                 continuousWorld: 'true',
-                errorTileUrl: '../fo3maps/blank.png',
+                errorTileUrl: 'http://www.digital-utopia.org/fo3maps/blank.png',
                 maxZoom: childMapData[p.options.index].zoom
             }).addTo(cmap);
             var w = childMapData[p.options.index].width;
@@ -2197,9 +2197,9 @@ function init() {
     map.zoomControl.setPosition('bottomright');
 
     //L.tileLayer('zipimg.php?n=wasteland&z={z}&x={x}&y={y}', {
-    L.tileLayer('/fo4maps/nukaworld/{z}/{x}_{y}.png', {
+    L.tileLayer('http://www.digital-utopia.org/fo4maps/nukaworld/{z}/{x}_{y}.png', {
         continuousWorld: 'true',
-        errorTileUrl: '../../fo4maps/blank.png',
+        errorTileUrl: 'http://www.digital-utopia.org/fo4maps/blank.png',
 
         maxZoom: 5
     }).addTo(map);
@@ -2254,8 +2254,8 @@ $(document).ready(function() {
     $.each(locale[lang].filterText, function(k, v) {
         var sl = $(fstub).appendTo("#filterMenu");
         $(".menu-label", sl).html(v);
-        $(".menu-img", sl).attr("src", "../markers/" + k + ".png");
-        $(".menu-img-over", sl).attr("src", "../markers/" + k + "-inv.png");
+        $(".menu-img", sl).attr("src", "http://www.digital-utopia.org/fallout4/markers/" + k + ".png");
+        $(".menu-img-over", sl).attr("src", "http://www.digital-utopia.org/fallout4/markers/" + k + "-inv.png");
     });
     var space = $(fstub).appendTo("#filterMenu");
     $(".selector", space).css("display", "none");
@@ -2338,7 +2338,7 @@ $(document).ready(function() {
 
                 $(".selector", e.currentTarget).attr("class", "selector selector-over");
                 micon = $(".menu-img", e.currentTarget).attr("src");
-                if (micon.indexOf("Region.png") == -1) {
+                if (micon.indexOf("http://www.digital-utopia.org/fallout4/nukaworld/Region.png") == -1) {
                     $(".leaflet-marker-icon").each(function(i) {
                         if ($(this).attr("src") == micon) {
                             $(this).css("display", "none");
@@ -2386,7 +2386,7 @@ $(document).ready(function() {
                 }
                 $(".selector", e.currentTarget).attr("class", "selector selector-on selector-over");
                 micon = $(".menu-img", e.currentTarget).attr("src");
-                if (micon.indexOf("Region.png") == -1) {
+                if (micon.indexOf("http://www.digital-utopia.org/fallout4/nukaworld/Region.png") == -1) {
                     $(".leaflet-marker-icon").each(function(i) {
                         if ($(this).attr("src") == micon) {
                             $(this).css("display", "block");
