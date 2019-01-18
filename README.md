@@ -6,6 +6,7 @@ Currently supported maps:
 
 - [Fallout 4](http://www.digital-utopia.org/fallout4/) (`fallout4.htm`)
 - [Fallout 4: Far Harbor](http://www.digital-utopia.org/fallout4/farharbor/) (`fallout4_farharbor.htm`)
+- [Fallout 4: Nuka-World](http://www.digital-utopia.org/fallout4/nukaworld/) (`fallout4_nukaworld.htm`)
 
 ## Caveats
 
